@@ -43,6 +43,10 @@ p{
   margin: 0 2% 20px;
 }
 
+@media (min-width: 320px) {
+  .container {
+    width: 306px;
+  }
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -62,7 +66,7 @@ p{
     width: 21%;
   }
 }
-@ (min-wdith: 1200px) {
+@ (min-width: 1200px) {
   .container {
     width: 1170px;
   }
@@ -130,7 +134,7 @@ header .hero img {
   color: #fff;
   font-weight: 700px;
   text-decoration: none;
-  padding: 10px 30px;
+  padding: 10px 20px;
   background-color: #2ecc71;
   border: 2px solid #2ecc71;
   box-shadow: 0px 2px 0px 0px #22894e;
