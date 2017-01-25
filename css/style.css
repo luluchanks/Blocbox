@@ -244,7 +244,7 @@ header .hero img {
 
 /* TESTIMONIALS */
 .testimonials {
-  padding:4em 0;
+  padding: 4em 0;
   text-align: center;
 }
 .testimonials h2 {
@@ -253,15 +253,18 @@ header .hero img {
 .testimonials ul li {
   list-style-type: none;
 }
+.testimonials ul li.one-fourth.lower {
+  margin: 20px 10px;
+}
 .testimonials blockquote {
   color:#FFFFFF;
   text-align: left;
   font-style: italic;
-  background:#34495E;
+  background: #34495E;
   position: relative;
-  padding:30px;
-  width:auto;
-  margin:0;
+  padding: 30px;
+  width: auto;
+  margin: 0;
 }
 .testimonials blockquote:after {
   top: 100%;
@@ -282,7 +285,7 @@ header .hero img {
    border-radius:50%;
    float: left;
    display: inline-block;
-   margin:20px 10px 0 0;
+   margin: 20px 10px 0 0;
  }
  .testimonials p.name {
    float: left;
