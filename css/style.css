@@ -434,10 +434,11 @@ header .hero img {
 .left-nav .settings a {
    color:#FFFFFF;
    text-decoration: none;
-   text-align: right;
-   float: right;
-   margin-right: 10px;
+   text-align: left;
+   float: left;
+   margin-right: 8px;
    margin-top: 8px;
+   line-height: 24px
 }
 li.active {
   background-color: #3498db;
