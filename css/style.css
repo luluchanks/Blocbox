@@ -380,6 +380,10 @@ header .hero img {
    margin-right: 10px;
    margin-top: 8px;
 }
+li.active {
+  background-color: #3498db;
+}
+
 /* CONTENT */
 .content {
   padding: 6em 1% 1.5em;
